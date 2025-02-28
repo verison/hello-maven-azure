@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <servers>
+    <server>
+      <id>hello-maven-releases</id>
+      <username>mavenrepos</username>
+      <password>${azure-storage-user-secret-key}</password>
+    </server>
+    <server>
+      <id>hello-maven-snapshots</id>
+      <username>mavenrepos</username>
+      <password>${azure-storage-user-secret-key}</password>
+    </server>
+  </servers>  
+  <profiles>
+   </profiles>
+ </settings>
