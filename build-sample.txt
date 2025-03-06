@@ -1,0 +1,1 @@
+mvn --settings settings.xml clean package -Dazure-storage-user-secret-key=XXXX

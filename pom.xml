@@ -3,10 +3,10 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>hello</groupId>
+    <groupId>com.scope.hello</groupId>
     <artifactId>hello-maven-azure</artifactId>
     <packaging>jar</packaging>
-    <version>0.2.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -49,11 +49,11 @@
 <distributionManagement>
   <repository>
     <id>hello-maven-releases</id>
-    <url>bs://mavenrepos/releases</url>
+    <url>bs://mavenrepos/hello-maven-releases</url>
   </repository>
   <snapshotRepository>
     <id>hello-maven-snapshots</id>
-    <url>bs://mavenrepos/snapshots</url>
+    <url>bs://mavenrepos/hello-maven-snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 
